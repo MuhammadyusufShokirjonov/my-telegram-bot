@@ -8,7 +8,7 @@ bot = telebot.TeleBot(TOKEN)
 @bot.message_handler(commands=['start'])
 def start(message):
     ism = message.from_user.first_name
-    bot.send_message(message.chat.id, f'Salom, {ism}! 👋 Savolingizni yozing!')
+    bot.send_message(message.chat.id, f"Salom, {ism}! 👋 Savolingizni yozing!, Muhammadyusufjon o'qib javob yozadi")
 
 @bot.message_handler(content_types=['text'])
 def handle_message(message):
