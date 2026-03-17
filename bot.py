@@ -34,7 +34,7 @@ def handle_message(message):
             f'👤 {ism} ({username})\n'
             f'ID: {message.chat.id}\n'
             f'💬 {message.text}')
-        bot.reply_to(message, '✅ Xabaringiz qabul qilindi!')
+        bot.reply_to(message, '✅ Xabaringizni Muhammadyusufjon qabul qildi!')
 
 print("🚀 Bot ishga tushdi...")
 bot.polling(none_stop=True)
